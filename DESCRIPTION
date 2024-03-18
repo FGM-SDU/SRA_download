@@ -1,0 +1,10 @@
+Package: SRA_DOWNLOAD_UCLOUD
+Title: Accessing public genomic data: UCloud, Slurm, SRA-Toolkit
+Version: 1.0
+Authors@R: 
+    c(person("Victor","Enrique", "Goitea","victorg@bmb.sdu.dk", role = c("aut", "cre"))
+Description: This package contains guides for downloading public reference and genomic data data to UCloud-FGM @ SDU.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
