@@ -77,9 +77,11 @@ We are going to use these two scripts to do this efficiently in parallel. The fi
 
 1.  **Run the second script to submit the first script to the SLURM cluster:**
     ```bash
-    path_to/sra_fqdump.sh <input-SRR-List.txt>
+    path_to/sra_fqdump.sh -m <sr or pe> <input-SRR-List.txt>
     ```  
     Replace **input-SRR-List.txt** with the file containing the **Accession List**.
+
+    Note: `-m` indicates the mode, i.e. `sr` for single-end reads or `pe` for pair-end sequencing.
 
 2.  **Monitor Job:** You can monitor the job using the SLURM commands,
     such as squeue, scontrol show job <job-id>, and check the log files
